@@ -44,7 +44,6 @@ Add your Huefy API key to your `.env` file:
 
 ```env
 HUEFY_API_KEY=your-huefy-api-key
-HUEFY_BASE_URL=https://api.huefy.com/api/v1/sdk
 HUEFY_DEFAULT_PROVIDER=ses
 HUEFY_TIMEOUT=30
 HUEFY_RETRY_ATTEMPTS=3
@@ -422,7 +421,6 @@ The `config/huefy.php` file contains all configuration options:
 return [
     // API Configuration
     'api_key' => env('HUEFY_API_KEY'),
-    'base_url' => env('HUEFY_BASE_URL', 'https://api.huefy.com/api/v1/sdk'),
     'timeout' => env('HUEFY_TIMEOUT', 30),
     'retry_attempts' => env('HUEFY_RETRY_ATTEMPTS', 3),
     'default_provider' => env('HUEFY_DEFAULT_PROVIDER', 'ses'),

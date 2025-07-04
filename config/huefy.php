@@ -24,7 +24,7 @@ return [
     |
     */
 
-    'base_url' => env('HUEFY_BASE_URL', 'https://api.huefy.com/api/v1/sdk'),
+    'base_url' => env('HUEFY_BASE_URL', 'https://api.huefy.dev/api/v1/sdk'),
 
     /*
     |--------------------------------------------------------------------------

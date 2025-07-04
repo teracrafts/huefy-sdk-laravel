@@ -20,7 +20,7 @@ class HuefyClient
 
     public function __construct(
         string $apiKey,
-        string $baseUrl = 'https://api.huefy.com/api/v1/sdk',
+        string $baseUrl = 'https://api.huefy.dev/api/v1/sdk',
         int $timeout = 30,
         int $retryAttempts = 3
     ) {
