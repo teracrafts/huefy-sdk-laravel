@@ -7,7 +7,7 @@ The official Laravel package for Huefy - App Mail Templates. Provides seamless i
 Install the package via Composer:
 
 ```bash
-composer require teracrafts/huefy-laravel
+composer require teracrafts/huefy-sdk-laravel
 ```
 
 ### Laravel Auto-Discovery

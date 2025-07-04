@@ -1,5 +1,5 @@
 {
-    "name": "teracrafts/huefy-laravel",
+    "name": "teracrafts/huefy-sdk-laravel",
     "description": "Laravel package for Huefy - App Mail Templates with seamless integration, service providers, and artisan commands",
     "type": "library",
     "license": "MIT",
